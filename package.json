@@ -11,14 +11,14 @@
     "variables",
     "checker"
   ],
-  "author": "Wender Freese",
-  "license": "ISC",
+  "author": "Wender Freese <wender.jean@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wenderjean/checkdotenv/issues"
+    "url": "https://github.com/isapp/checkdotenv/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wenderjean/checkdotenv.git"
+    "url": "https://github.com/isapp/checkdotenv.git"
   },
   "devDependencies": {
     "code": "^4.0.0",
