@@ -1,7 +1,5 @@
 'use strict';
 
-require('dotenv').config({ silent: true });
-
 const Code = require('code');
 const Lab = require('lab');
 const lab = exports.lab = Lab.script();
