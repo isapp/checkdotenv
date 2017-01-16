@@ -4,6 +4,7 @@
   "description": "Module aimed to verify the presence of ENV vars",
   "main": "lib/checker.js",
   "scripts": {
+    "check": "nsp check",
     "test": "lab -l -c -r console -o stdout -r lcov -o .coverage/lcov.info test/initialize.js test/**/*_spec.js"
   },
   "keywords": [
