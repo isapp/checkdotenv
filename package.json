@@ -5,7 +5,7 @@
   "main": "lib/checker.js",
   "scripts": {
     "check": "nsp check",
-    "test": "lab -l -c -r console -o stdout -r lcov -o .coverage/lcov.info test/initialize.js test/**/*_spec.js"
+    "test": "lab -lL -c -r console -o stdout -r lcov -o .coverage/lcov.info test/initialize.js test/**/*_spec.js"
   },
   "keywords": [
     "env",

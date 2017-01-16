@@ -1,7 +1,6 @@
 'use strict';
 
 const Errors = require('../../lib/errors');
-const chalk = require('chalk');
 
 describe('Errors', () => {
 
