@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1 (Jan 16, 2017)
+
+Changed licence to MIT
+
 ## 1.1.0 (Dez 17, 2016)
 
 ### Features
