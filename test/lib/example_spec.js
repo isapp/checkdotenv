@@ -4,17 +4,14 @@ const Example = require('../../lib/example');
 
 describe('Example', () => {
 
-    describe('#isMissingVariables', () => {
+    describe('#hasMissingVariables', () => {
 
         context('when .env.example does not exists', () => {
 
-            it('should throw an exception', (done) => {
+            it('should throw a file not found error', (done) => {
 
-                try {
-                    Example.isMissingVariables(".env.sample");
-                } catch(e) {
-                    expect(e.code).to.equal("ENOENT");
-                }
+                const fn = () => Example.hasMissingVariables('.env.sample');
+                expect(fn).to.throw(Error, /ENOENT/);
                 done();
             });
         });

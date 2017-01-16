@@ -1,11 +1,11 @@
 {
   "name": "checkdotenv",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Module aimed to verify the presence of ENV vars",
   "main": "lib/checker.js",
   "scripts": {
     "check": "nsp check",
-    "test": "lab -l -c -r console -o stdout -r lcov -o .coverage/lcov.info test/initialize.js test/**/*_spec.js"
+    "test": "lab -lL -c -r console -o stdout -r lcov -o .coverage/lcov.info test/initialize.js test/**/*_spec.js"
   },
   "keywords": [
     "env",
