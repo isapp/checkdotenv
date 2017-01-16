@@ -10,11 +10,9 @@ describe('Checker', () => {
         context('when vars present in .env.example were not set', () => {
 
             it('should throw an exception', (done) => {
-                try {
-                    Checker.check();
-                } catch(e) {
-                    expect(e.message).to.exists();
-                }
+
+                const fn = () => Checker.check();
+                expect(fn).to.throw(Error);
                 done();
             });
         });
